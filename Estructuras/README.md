@@ -1,6 +1,6 @@
-# Estructuras de Datos Primitivas en C
+# Estructuras de Datos en C
 
-Este proyecto contiene ejemplos y ejercicios para conocer y practicar el uso de las principales estructuras de datos primitivas del lenguaje C.
+Este proyecto contiene ejemplos y ejercicios para conocer y practicar el uso de las principales estructuras de datos primitivas y avanzadas del lenguaje C.
 
 ## Carpetas incluidas
 - **int/**: Números enteros.
@@ -9,18 +9,19 @@ Este proyecto contiene ejemplos y ejercicios para conocer y practicar el uso de 
 - **double/**: Números reales de doble precisión.
 - **short/**: Enteros cortos (menos memoria).
 - **long/**: Enteros largos (mayor capacidad).
+- **Strings/**: Cadenas de texto (arreglos de caracteres terminados en '\0').
+- **Structs/**: Estructuras que agrupan diferentes tipos de datos bajo un mismo nombre.
+- **Unions/**: Estructuras que permiten almacenar diferentes tipos de datos en la misma ubicación de memoria.
+- **Enums/**: Enumeraciones, conjuntos de constantes con nombre para facilitar la legibilidad.
 
 Cada carpeta contiene:
-- Un archivo `README.md` explicando el tipo de dato y proponiendo 5 ejercicios.
-- Un archivo de ejemplo en C mostrando el uso básico del tipo de dato.
+- Un archivo `README.md` explicando la estructura y proponiendo 5 ejercicios.
+- Un archivo de ejemplo en C mostrando el uso básico de la estructura (si aplica).
 
 ## ¿Cómo usar este proyecto?
-1. Lee el `README.md` de cada carpeta para entender el tipo de dato.
+1. Lee el `README.md` de cada carpeta para entender la estructura de datos.
 2. Revisa y ejecuta el ejemplo de código.
 3. Resuelve los ejercicios propuestos para practicar.
-
----
-
 
 ---
 
@@ -52,4 +53,4 @@ printf("Long: %ld\n", largo);
 
 ---
 
-¡Explora, aprende y experimenta con los tipos de datos primitivos en C!
+¡Explora, aprende y experimenta con los tipos de datos en C!
